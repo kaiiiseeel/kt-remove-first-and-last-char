@@ -1,5 +1,6 @@
 plugins {
-    kotlin("jvm") version "1.8.0"
+    id ("java")
+    id ("org.jetbrains.kotlin.jvm")
     application
     id("io.gitlab.arturbosch.detekt") version "1.23.3"
 }
